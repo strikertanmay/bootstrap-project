@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <script type="text/javascript" src="particles.js"></script>
     </head>
 
     <body>
@@ -50,13 +51,122 @@
                 <div class="col-md-2">asdf</div>
 
             </div>
-
+            <body id="particles-js">
 
 
 
 
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
             <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+             <script type="text/javascript">
+                particlesJS("particles-js", {
+                    "particles": {
+                        "number": {
+                            "value": 216,
+                            "density": {
+                                "enable": true,
+                                "value_area": 6155.448755889102
+                            }
+                        },
+                        "color": {
+                            "value": "#210f31"
+                        },
+                        "shape": {
+                            "type": "polygon",
+                            "stroke": {
+                                "width": 0,
+                                "color": "#ffffff"
+                            },
+                            "polygon": {
+                                "nb_sides": 6
+                            },
+
+                        },
+                        "opacity": {
+                            "value": 0.1443082424057788,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "size": {
+                            "value": 116.24830638243293,
+                            "random": false,
+                            "anim": {
+                                "enable": true,
+                                "speed": 10,
+                                "size_min": 40,
+                                "sync": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": true,
+                            "distance": 448.95897637353403,
+                            "color": "#453a48",
+                            "opacity": 1,
+                            "width": 2
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 8,
+                            "direction": "none",
+                            "random": false,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": {
+                            "onhover": {
+                                "enable": false,
+                                "mode": "grab"
+                            },
+                            "onclick": {
+                                "enable": false,
+                                "mode": "push"
+                            },
+                            "resize": true
+                        },
+                        "modes": {
+                            "grab": {
+                                "distance": 400,
+                                "line_linked": {
+                                    "opacity": 1
+                                }
+                            },
+                            "bubble": {
+                                "distance": 400,
+                                "size": 40,
+                                "duration": 2,
+                                "opacity": 8,
+                                "speed": 3
+                            },
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+                            "push": {
+                                "particles_nb": 4
+                            },
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                        }
+                    },
+                    "retina_detect": true
+                });
+            </script>
+
 
     </body>
 
