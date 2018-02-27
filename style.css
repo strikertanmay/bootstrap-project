@@ -1,0 +1,37 @@
+<style>@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+</style>body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    /* Half height */
+    height: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grad {
+    background: linear-gradient(to right, indigo, violet);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.row {
+    border-color: solid black;
+    border: 2px;
+}
