@@ -4,18 +4,10 @@ html {
     height: 100%;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-    /* Half height */
-    height: 50%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#grad {
+body{
+    color: white;    
+    font-size: 20px;
+  line-height: 1.42857143;
     background: linear-gradient(to right, indigo, violet);
 }
 
@@ -26,9 +18,10 @@ html {
     margin-top: 30px;
 }
 
-h1 {
+.f1 {
     color: white;
     font-family: 'Poiret One', cursive;
+     font-size: 60px; 
 }
 
 .row {
