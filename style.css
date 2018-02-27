@@ -28,3 +28,10 @@ body{
     border-color: solid black;
     border: 2px;
 }
+.form-control:hover{
+    transform: translateY(5px);
+    
+}
+.form-control:focus{
+    transform: scaleY(1.7);
+}
